@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crud</title>
+</head>
+<body>
+  <div>
+    <form class="create_form"  >
+      <div >
+        <label for="name">Nome</label>
+        <input id="name" type="text" name="name">
+      </div>
+      <div>
+        <label for="password">Senha</label>
+        <input id="password" name="password" type="text">
+      </div>
+      <button type="button" class="create">Enviar</button>
+    </form>
+  </div>
+
+  <hr>
+
+  <form  class="update_form">
+    <div>
+      <label for="id">id</label>
+      <input id="id" type="text" name="id">
+    </div>
+
+    <div>
+      <label for="name">Nome</label>
+      <input id="name" type="text" name="password">
+    </div>
+    <div>
+      <label for="password">Senha</label>
+      <input id="password" name="password" type="text">
+    </div>
+    <button type="button" class="update">Atualizar</button>
+  </form>
+
+  <hr>
+
+  <div>
+    <h2>Mostra dados</h2>
+    <button type="button" class="get">Mostra dados</button>
+    <div class="data"></div>
+  </div>  
+
+  <hr>
+
+  <div>
+    <h2>Apagar dado</h2>
+    <input type="number"  class="getId"/>
+    <button type="button" class="delete">Apagar dado</button>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
